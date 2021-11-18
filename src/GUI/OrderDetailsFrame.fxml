@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="66.0" layoutY="27.0" prefHeight="36.0" prefWidth="71.0" text="order:">
+         <font>
+            <Font name="Book Antiqua" size="23.0" />
+         </font>
+      </Label>
+      <TextField id="orderNUmTxt" fx:id="orderNUmTxt" layoutX="136.0" layoutY="32.0" />
+      <Label layoutX="27.0" layoutY="109.0" prefHeight="25.0" prefWidth="71.0" text="Restaurant:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="170.0" text="Order Time:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="224.0" text="Phone Number:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="281.0" text="Type Of Order:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="338.0" text="Order Adress:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField id="typeTxt" fx:id="typeTxt" layoutX="136.0" layoutY="279.0" />
+      <TextField id="phoneTxt" fx:id="phoneTxt" layoutX="136.0" layoutY="222.0" />
+      <TextField id="timeTxt" fx:id="timeTxt" layoutX="136.0" layoutY="168.0" />
+      <TextField id="resTxt" fx:id="resTxt" layoutX="136.0" layoutY="109.0" />
+      <TextField id="addressTxt" fx:id="addressTxt" layoutX="136.0" layoutY="336.0" />
+   </children>
+</AnchorPane>
